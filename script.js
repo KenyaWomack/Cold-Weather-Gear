@@ -7,14 +7,12 @@ document.write("Hello" + usersName);
 return usersName;
 }
 
-let userInput = prompt("How old are you?");
-
 let userInput = prompt("Pick a number betweem 1 & 10");
 console.log(userInput);
 
 let myNumber = 7;
 
-if (userInput == myNumber){
+function numberGuess(){if (userInput == myNumber){
     document.write("You won the prize!");
 } else if (userInput > myNumber){
     document.write("A little too high");
@@ -24,6 +22,5 @@ if (userInput == myNumber){
     document.write("That's somewhere in the stratosphere!");
 }
 }
-
 
 console.log("Out of the logic");
