@@ -24,3 +24,9 @@ function numberGuess(){if (userInput == myNumber){
 }
 
 console.log("Out of the logic");
+
+let myNumber = 5
+
+for (let i = 0; i< myNumber; i++){
+    document.write ('<p> https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80')</p>
+}
