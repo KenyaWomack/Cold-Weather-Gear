@@ -5,6 +5,8 @@ document.write("WELCOME TO THE COLD WEATHER GEAR PAGE!!!");
 let usersName = prompt("What is your name?");
 document.write("Hello" + usersName);
 
+let userInput = prompt("How old are you?");
+
 let userInput = prompt("Pick a number betweem 1 & 10");
 console.log(userInput);
 
