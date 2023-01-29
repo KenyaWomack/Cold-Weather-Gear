@@ -2,8 +2,10 @@ alert("Hello Hikers");
 console.log("Where is the console?");
 document.write("WELCOME TO THE COLD WEATHER GEAR PAGE!!!");
 
-let usersName = prompt("What is your name?");
+function greetUser(){let usersName = prompt("What is your name?");
 document.write("Hello" + usersName);
+return usersName;
+}
 
 let userInput = prompt("How old are you?");
 
@@ -21,5 +23,7 @@ if (userInput == myNumber){
 } else {
     document.write("That's somewhere in the stratosphere!");
 }
+}
+
 
 console.log("Out of the logic");
